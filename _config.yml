@@ -1,5 +1,6 @@
 name: Vimプラグイン読書会
 markdown: rdiscount
+base-url: /reading-vimplugin/
 
 rdiscount:
   extensions:
