@@ -1,0 +1,65 @@
+.main table {
+  background-color: transparent;
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse !important;
+  border: 1px solid #ddd;
+}
+.main table > td,
+.main table > th {
+  background-color: #fff;
+}
+.main table > thead > tr > th,
+.main table > tbody > tr > th,
+.main table > tfoot > tr > th,
+.main table > thead > tr > td,
+.main table > tbody > tr > td,
+.main table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+.main table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+.main table > caption + thead > tr:first-child > th,
+.main table > colgroup + thead > tr:first-child > th,
+.main table > thead:first-child > tr:first-child > th,
+.main table > caption + thead > tr:first-child > td,
+.main table > colgroup + thead > tr:first-child > td,
+.main table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+.main table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+.main table table {
+  background-color: #fff;
+}
+.main table th,
+.main table td {
+  border: 1px solid #ddd;
+}
+.main table thead > tr > th,
+.main table tbody > tr > th,
+.main table tfoot > tr > th,
+.main table thead > tr > td,
+.main table tbody > tr > td,
+.main table tfoot > tr > td {
+  border: 1px solid #ddd;
+}
+.main table thead > tr > th,
+.main table thead > tr > td {
+  border-bottom-width: 2px;
+}
+.main table tbody > tr:nth-child(odd) > td,
+.main table tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+.main table tbody > tr:hover > td,
+.main table tbody > tr:hover > th {
+  background-color: #f5f5f5;
+}
+
