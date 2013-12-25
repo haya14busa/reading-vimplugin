@@ -1,5 +1,9 @@
+body {
+  background-color: #f8f8f8;
+  color: #080808;
+}
 .navigation {
-  background-color: #101010;
+  background-color: #080808;
   padding-top: 20px;
 }
 .main table {
@@ -11,7 +15,7 @@
 }
 .main table > td,
 .main table > th {
-  background-color: #fff;
+  background-color: #f8f8f8;
 }
 .main table > thead > tr > th,
 .main table > tbody > tr > th,

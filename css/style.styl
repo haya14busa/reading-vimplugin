@@ -1,7 +1,28 @@
 // Reading Vim Plugin
+// Color Variable {{{
+
+
+c_white=#f8f8f8
+c_black=#080808
+
+// Vim {{{
+// http://www.colourlovers.com/palette/1289228/Vim
+c_dark=#493206        // Vim Saucepan
+c_accent=#A6240C      // Give 'em Vim
+c_base_dark=#B6790E   // Vim Kitchen Table
+c_base_middle=#BA954E // Vim Walls
+c_base_light=#BCA674  // Vim Teapot
+// }}}
+
+// }}}
+
+body
+  background-color: c_white
+  color:c_black
+
 // Header {{{
 .navigation
-  background-color:#101010
+  background-color:c_black
   padding-top:20px
 
 // }}}
@@ -16,7 +37,7 @@
     border-collapse: collapse !important;
     > td,
     > th
-      background-color: #fff
+      background-color: c_white
     > thead > tr > th,
     > tbody > tr > th,
     > tfoot > tr > th,
