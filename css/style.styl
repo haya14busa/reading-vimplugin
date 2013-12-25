@@ -1,36 +1,97 @@
 // Reading Vim Plugin
 // Color Variable {{{
 
+// Variable {{{
+font_color=c_black
+bgc_color=c_white
 
+link_color=simplex_light_blue
+link_color_hover=simplex_morelight_blue
+link_color_active=simplex_light_blue
+
+h3_color=simplex_gray
+h3_border_color=simplex_light_blue
+
+footer_bgc_color=simplex_light_green
+// }}}
+
+// Basic {{{
 c_white=#f8f8f8
 c_black=#080808
+// }}}
+
+// Simplex {{{
+simplex_blue=#3a87ad
+simplex_light_blue=#21c4fd
+simplex_morelight_blue=lighten(#21c4fd,10)
+simplex_green=#468847
+simplex_light_green=#dff0d8
+simplex_gray=#6d7070
+// }}}
 
 // Vim {{{
 // http://www.colourlovers.com/palette/1289228/Vim
-c_dark=#493206        // Vim Saucepan
-c_accent=#A6240C      // Give 'em Vim
-c_base_dark=#B6790E   // Vim Kitchen Table
-c_base_middle=#BA954E // Vim Walls
-c_base_light=#BCA674  // Vim Teapot
+vim_dark=#493206        // Vim Saucepan
+vim_accent=#A6240C      // Give 'em Vim
+vim_base_dark=#B6790E   // Vim Kitchen Table
+vim_base_middle=#BA954E // Vim Walls
+vim_base_light=#BCA674  // Vim Teapot
 // }}}
 
 // }}}
 
+// Main {{{
 body
-  background-color: c_white
-  color:c_black
+  background-color:bgc_color
+  color:font_color
+  font-size: 16px
+.main
+  margin-top:10px
+  padding:10px 20px
+  background-color:c_white
+  border-radius: 5px
+// }}}
+
+// Link {{{
+a
+  color:link_color
+  &:hover
+    color:link_color_hover
+// }}}
 
 // Header {{{
 .navigation
-  background-color:c_black
   padding-top:20px
+  margin-bottom: 40px
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus
+  color:c_black
 
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus
+  color:link_color_active
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus
+  color:link_color_hover
+
+// }}}
+
+// h3 {{{
+h3
+  color:h3_color
+  border-bottom: 2px dashed h3_border_color
+  padding:2px
+  margin:20px 0
 // }}}
 
 // Table {{{
 .main
   table
     background-color: transparent
+    a
+      font-weight:200
     // .table {{{
     width: 100%;
     margin-bottom: 20px;
@@ -63,31 +124,46 @@ body
     table
       background-color: #ffffff;
     // end .table }}}
-    // .table-bordred {{{
-    border: 1px solid #dddddd
-    th,td
-      border: 1px solid #ddd
-    thead > tr > th,
-    tbody > tr > th,
-    tfoot > tr > th,
-    thead > tr > td,
-    tbody > tr > td,
-    tfoot > tr > td
-      border: 1px solid #dddddd
-    thead > tr > th,
-    thead > tr > td
-      border-bottom-width: 2px
-    // end .table }}}
+    // // .table-bordred {{{
+    // border: 1px solid #dddddd
+    // th,td
+    //   border: 1px solid #ddd
+    // thead > tr > th,
+    // tbody > tr > th,
+    // tfoot > tr > th,
+    // thead > tr > td,
+    // tbody > tr > td,
+    // tfoot > tr > td
+    //   border: 1px solid #dddddd
+    // thead > tr > th,
+    // thead > tr > td
+    //   border-bottom-width: 2px
+    // // end .table }}}
     // .table-striped {{{
     tbody > tr:nth-child(odd) > td,
     tbody > tr:nth-child(odd) > th
-      background-color: #f9f9f9
+      background-color: darken(#f9f9f9,2)
     // }}}
     // .table-hover {{{
     tbody > tr:hover > td,
     tbody > tr:hover > th
-      background-color: #f5f5f5
+      background-color: darken(#f5f5f5,3)
     // }}}
+
+// }}}
+
+// Footer {{{
+#footer
+  background-color: footer_bgc_color
+  width:100%
+  margin-top: 50px
+  padding:20px 0
+  p
+    font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style:italic
+    font-weight:400
+    margin: 0
+    padding: 0
 // }}}
 
 //------------------------------------
