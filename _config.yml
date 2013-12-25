@@ -7,3 +7,9 @@ rdiscount:
     - autolink      # greedily urlify links
     - footnotes     # footnotes
     - smart         # typographic substitutions with SmartyPants
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'README.md'
+  - 'scripts'
