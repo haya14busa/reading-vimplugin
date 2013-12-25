@@ -1,3 +1,7 @@
+.navigation {
+  background-color: #101010;
+  padding-top: 20px;
+}
 .main table {
   background-color: transparent;
   width: 100%;
@@ -62,4 +66,3 @@
 .main table tbody > tr:hover > th {
   background-color: #f5f5f5;
 }
-

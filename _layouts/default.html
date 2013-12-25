@@ -6,15 +6,19 @@
     </head>
     <body>
 
-    <div class="container" style="padding:20px 0;">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+    <div class="navigation">
+        <div class="container">
+            {% include navigation.html %}
+        </div>
+    </div>
+    <div class="container">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="main col-md-10">
+                {{ content }}
+            </div>
+            <div class="col-md-1"></div>
           </div>
-
-          <div class="main">
-            {{ content }}
-          </div>
-
           <div class="footer">
           </div>
     </div>
