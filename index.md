@@ -45,7 +45,7 @@ title: Vimプラグイン読書会
 を読みます
 
 ### リクエスト
-- [読みたいプラグインのリクエスト](#TODO)
+- [読みたいプラグインのリクエスト](https://github.com/haya14busa/reading-vimplugin/wiki/Request)
 
 今後読んでみたいプラグインを上記の wiki で追加する事ができます。
 もし、読んでみたいプラグインがあったらぜひ上記の wiki に追加してください！
