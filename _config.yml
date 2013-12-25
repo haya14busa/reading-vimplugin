@@ -1,3 +1,8 @@
-name: Your New Jekyll Site
-markdown: redcarpet
-pygments: true
+name: Vimプラグイン読書会
+markdown: rdiscount
+
+rdiscount:
+  extensions:
+    - autolink      # greedily urlify links
+    - footnotes     # footnotes
+    - smart         # typographic substitutions with SmartyPants
