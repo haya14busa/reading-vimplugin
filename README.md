@@ -1,4 +1,4 @@
-# Vimプラグイン読書会
+# Vimプラグイン読書会 [![Build Status](https://travis-ci.org/haya14busa/reading-vimplugin.png?branch=gh-pages)](https://travis-ci.org/haya14busa/reading-vimplugin)
 
 http://haya14busa.github.io/reading-vimplugin/
 
