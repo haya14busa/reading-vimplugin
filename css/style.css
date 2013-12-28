@@ -32,6 +32,10 @@ a:hover {
 .navbar-default .navbar-nav>li>a:focus {
   color: #54d1fd;
 }
+h1#title a {
+  text-decoration: none;
+  color: #080808;
+}
 h3 {
   color: #6d7070;
   border-bottom: 2px dashed #21c4fd;
