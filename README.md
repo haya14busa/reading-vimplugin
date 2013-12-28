@@ -8,7 +8,7 @@ git cloneして下記コマンドを打つ
 
 ~~~
 git clone https://github.com/haya14busa/reading-vimplugin
-bundle exec jekyll -w -b /reading-vimplugin
+bundle exec jekyll serve -w -b /reading-vimplugin
 ~~~
 
 http://localhost:4000/reading-vimplugin/
