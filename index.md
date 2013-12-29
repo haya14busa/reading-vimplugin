@@ -28,19 +28,9 @@ title: Vimプラグイン読書会
 ※更新が遅れる場合、過去のものが掲載されている可能性があります。
 
 - 第2回
-- 日時: 2014年 1/11(土) 21時
-- 読むプラグイン
-
-@Lindanさんが参加できそうであれば
-
-1. [rhysd/clever-f](https://github.com/rhysd/clever-f.vim)
-
-またはunite-souceで
-
-1. [mattn/unite-mcdonalds-vim](https://github.com/mattn/unite-mcdonalds-vim)
-2. [osyo-manga/unit-fold](https://github.com/osyo-manga/unite-fold)
-
-を読みます
+- 日時: 2014年 1/11(土) 21:00-
+- 場所: [LingrのVim部屋](http://lingr.com/room/vim)
+- 読むプラグイン: [rhysd/clever-f](https://github.com/rhysd/clever-f.vim)
 
 ### リクエスト
 - [読みたいプラグインのリクエスト](https://github.com/haya14busa/reading-vimplugin/wiki/Request)
