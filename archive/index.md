@@ -23,7 +23,7 @@ title: 過去の開催 - Vimプラグイン読書会
   {% endif %}
   <tr>
     <td><a href="{{ htmlname }}.html">第{{ archive.id }}回</a></td>
-    <td> {{ archive.date }} {{ archive.day }}</td>
+    <td>{{ archive.date | date: "%Y/%m/%d %a" }}</td>
     <td>
     {% for plugin in archive.plugins %}
     <a href="{{ plugin.url }}tree/{{ plugin.hash }}">{{ plugin.author }}/{{ plugin.name }}</a><br>

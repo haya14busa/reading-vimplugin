@@ -3,7 +3,6 @@
 # 1: {{{
 - id: 1
   date: 2013-12-14 21:00
-  day: Sat
   plugins:
     - name: junkfile.vim
       author: Shougo
@@ -38,7 +37,6 @@
 # 2: {{{
 - id: 2
   date: 2014-01-11 21:00
-  day: Sat
   plugins:
     - name: clever-f.vim
       author: rhysd
