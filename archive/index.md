@@ -3,8 +3,34 @@ layout: default
 title: 過去の開催 - Vimプラグイン読書会
 ---
 
-| No.                | Date                  | Plugin                                                                                                                    | Lingr Log
-| -------------------| --------------------- | -----                                                                                                                     | ----
-| [第1回](001.html)  | 2013/12/14(土) 21:00- | [Shougo/junkfile.vim](https://github.com/Shougo/junkfile.vim/tree/13384f507ea515af84d0f138a48c53378c7b30f3)<br> [thinca/vim-visualstar](https://github.com/thinca/vim-visualstar/tree/04327d52ee3b9ad35d1f6ac8919a6365352b2262)         | [ログ](http://lingr.com/room/vim/archives/2013/12/14#message-17822571)
-| [第2回](002.html)  | 2014/01/11(土) 21:00- | [rhysd/clever-f.vim](https://github.com/rhysd/clever-f.vim/tree/04d828502a474909440ce0ddaad95ffe738fdbab)
-                                                           | [ログ](http://lingr.com/room/vim/archives/2014/01/11#message-18045349)
+<table>
+  <thead>
+    <tr>
+      <th>No.</th>
+      <th>Date</th>
+      <th>Plugin</th>
+      <th>Lingr Log</th>
+    </tr>
+  </thead>
+  <tbody>
+{% for archive in site.data.archives %}
+  {% if archive.id < 10 %}
+    {% assign htmlname = archive.id | prepend: '00'  %}
+  {% elsif archive.id < 100 %}
+    {% assign htmlname = archive.id | prepend: '0' %}
+  {% else %}
+    {% assign htmlname = archive.id %}
+  {% endif %}
+  <tr>
+    <td><a href="{{ htmlname }}.html">第{{ archive.id }}回</a></td>
+    <td> {{ archive.date }} {{ archive.day }}</td>
+    <td>
+    {% for plugin in archive.plugins %}
+    <a href="{{ plugin.url }}tree/{{ plugin.hash }}">{{ plugin.author }}/{{ plugin.name }}</a><br>
+    {% endfor %}
+    </td>
+    <td><a href="{{ archive.log }}">ログ</a></td>
+  </tr>
+{% endfor %}
+  </tbody>
+</table>
