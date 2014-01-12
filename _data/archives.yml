@@ -40,7 +40,7 @@
   plugins:
     - name: clever-f.vim
       author: rhysd
-      url: https://github.com/rhysd/clever-f.vim/
+      url: https://github.com/rhysd/clever-f.vim
       hash: 04d828502a474909440ce0ddaad95ffe738fdbab
   members:
     - Lindan
