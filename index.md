@@ -4,12 +4,17 @@ title: Vimプラグイン読書会
 ---
 
 ## 次回予告
-※更新が遅れる場合、過去のものが掲載されている可能性があります。
+{% assign next = site.data.next %}
 
-- 第3回
-- 日時: 2014年 02/08 (土) 21:00-
+- 第{{ next.id }}回
+- 日時: {{ next.date }} -
 - 場所: [LingrのVim部屋](http://lingr.com/room/vim)
-- 読むプラグイン: TBD
+- 読むプラグイン:
+{% for plugin in next.plugins %}
+  - [{{ plugin.author }}/{{ plugin.name }}]({{ plugin.url }})
+{% endfor %}
+
+(※更新が遅れる場合、過去のものが掲載されている可能性があります。)
 
 ### Vimプラグイン読書会とは
 オンラインで集まり、毎回みんなで特定の誰かの Vim プラグイン を読んで、気になるところやわからないところ、感心するところなどを好き勝手に言いあう集まりです。

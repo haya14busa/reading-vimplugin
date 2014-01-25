@@ -1,0 +1,11 @@
+# _data/next.yml
+
+id: 3
+date: 2013-02-08 21:00
+plugins:
+  - name: unite-mcdonalds
+    author: mattn
+    url: https://github.com/mattn/unite-mcdonalds-vim
+  - name: unite-fold
+    author: osyo-manga
+    url: https://github.com/osyo-manga/unite-fold
