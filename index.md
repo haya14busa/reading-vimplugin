@@ -6,13 +6,17 @@ title: Vimプラグイン読書会
 ## 次回予告
 {% assign next = site.data.next %}
 
-- 第{{ next.id }}回
-- 日時: {{ next.date }} -
-- 場所: [LingrのVim部屋](http://lingr.com/room/vim)
-- 読むプラグイン:
-{% for plugin in next.plugins %}
-  - [{{ plugin.author }}/{{ plugin.name }}]({{ plugin.url }})
-{% endfor %}
+<ul>
+  <li>第{{ next.id }}回</li>
+  <li>日時: {{ next.date }} -</li>
+  <li>場所: <a href="http://lingr.com/room/vim">LingrのVim部屋</a></li>
+  <li>読むプラグイン:</li>
+    <ul>
+      {% for plugin in next.plugins %}
+      <li><a href="{{ plugin.url }}">{{ plugin.author }}{{ plugin.name }}</a></li>
+      {% endfor %}
+    </ul>
+</ul>
 
 (※更新が遅れる場合、過去のものが掲載されている可能性があります。)
 
