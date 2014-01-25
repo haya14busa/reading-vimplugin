@@ -3,22 +3,24 @@ layout: default
 title: Vimプラグイン読書会
 ---
 
-## 次回予告
-{% assign next = site.data.next %}
 
-<ul>
-  <li>第{{ next.id }}回</li>
-  <li>日時: {{ next.date }} -</li>
-  <li>場所: <a href="http://lingr.com/room/vim">LingrのVim部屋</a></li>
-  <li>読むプラグイン:</li>
-    <ul>
-      {% for plugin in next.plugins %}
-      <li><a href="{{ plugin.url }}">{{ plugin.author }}{{ plugin.name }}</a></li>
-      {% endfor %}
-    </ul>
-</ul>
+<div class='next-plugin white-box'>
+  {% assign next = site.data.next %}
+  <h2>第{{ next.id }}回 次回予告</h2>
+  <hr>
+  <ul>
+    <li>日時: <span class='date'>{{ next.date | date: "%Y/%m/%d %a %H:%M" }} -</span></li>
+    <li>場所: <a href="http://lingr.com/room/vim">LingrのVim部屋</a></li>
+    <li>読むプラグイン:</li>
+      <ul>
+        {% for plugin in next.plugins %}
+        <li><a href="{{ plugin.url }}">{{ plugin.author }}/{{ plugin.name }}</a></li>
+        {% endfor %}
+      </ul>
+  </ul>
+  <span class='caution'>(※更新が遅れる場合、過去のものが掲載されている可能性があります。)</span>
+</div>
 
-(※更新が遅れる場合、過去のものが掲載されている可能性があります。)
 
 ### Vimプラグイン読書会とは
 オンラインで集まり、毎回みんなで特定の誰かの Vim プラグイン を読んで、気になるところやわからないところ、感心するところなどを好き勝手に言いあう集まりです。
