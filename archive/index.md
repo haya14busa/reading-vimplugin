@@ -3,7 +3,7 @@ layout: default
 title: 過去の開催 - Vimプラグイン読書会
 ---
 
-<table>
+<table class="table table-responsive archive">
   <thead>
     <tr>
       <th>No.</th>
@@ -22,8 +22,9 @@ title: 過去の開催 - Vimプラグイン読書会
     {% assign htmlname = archive.id %}
   {% endif %}
   <tr>
-    <td><a href="{{ htmlname }}.html">第{{ archive.id }}回</a></td>
-    <td>{{ archive.date | date: "%Y/%m/%d %a" }}</td>
+    <!-- <td><a href="{{ htmlname }}.html">第{{ archive.id }}回</a></td> -->
+    <td><a href="{{ htmlname }}.html">#{{ archive.id }}</a></td>
+    <td>{{ archive.date | date: "%Y/%m/%d %a %H:%M" }}</td>
     <td>
     {% for plugin in archive.plugins %}
     <a href="{{ plugin.url }}/tree/{{ plugin.hash }}">{{ plugin.author }}/{{ plugin.name }}</a><br>

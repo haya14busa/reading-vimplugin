@@ -116,6 +116,9 @@ h3 {
 .main table tbody > tr:hover > th {
   background-color: #ededed;
 }
+table.archive {
+  font-size: 14px;
+}
 #footer {
   background-color: #dff0d8;
   width: 100%;
