@@ -3,6 +3,8 @@
 id: 4
 date: 2014-03-08 21:00
 plugins:
-  - name: TBD
-    # author: mattn
-    url: https://github.com/haya14busa/reading-vimplugin/wiki/Request
+  - name: vital.vim
+    author: vim-jp
+    url: https://github.com/vim-jp/vital.vim
+    # url: https://github.com/haya14busa/reading-vimplugin/wiki/Request
+other: Data.List, Data.String, Data.Dictionaryあたりを読みます

@@ -18,6 +18,9 @@ title: Vimプラグイン読書会
         {% endfor %}
       </ul>
   </ul>
+  {% if next.other %}
+    <p>{{ next.other }}</p>
+  {% endif %}
   <span class='caution'>(※更新が遅れる場合、過去のものが掲載されている可能性があります。)</span>
 </div>
 
