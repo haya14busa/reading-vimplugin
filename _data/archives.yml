@@ -56,3 +56,24 @@
       url: http://haya14busa.com/preparation_of_reading_vim_plugin_02/
 # }}}
 
+- id: 3
+  date: 2014-02-08 21:00
+  plugins:
+    - name: unite-mcdonalds-vim
+      author: mattn
+      url: https://github.com/mattn/unite-mcdonalds-vim
+      hash: 41ef54c87866f8fcb913662c4389e5d9251c497a
+    - name: unite-fold
+      author: osyo-manga
+      url: https://github.com/osyo-manga/unite-fold
+      hash: f4396e81ab96e166c06f847f0cb25d18e59e49ce
+  members:
+    - deris0126
+    - haya14busa
+    - kanno
+    - manga_osyo
+    - mattn
+    - supermomonga
+    - thinca
+  log: http://lingr.com/room/vim/archives/2014/02/08#message-18300029
+  links:

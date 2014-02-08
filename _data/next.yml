@@ -1,11 +1,8 @@
 # _data/next.yml
 
-id: 3
-date: 2014-02-08 21:00
+id: 4
+date: 2014-03-08 21:00
 plugins:
-  - name: unite-mcdonalds
-    author: mattn
-    url: https://github.com/mattn/unite-mcdonalds-vim
-  - name: unite-fold
-    author: osyo-manga
-    url: https://github.com/osyo-manga/unite-fold
+  - name: TBD
+    # author: mattn
+    url: https://github.com/haya14busa/reading-vimplugin/wiki/Request
