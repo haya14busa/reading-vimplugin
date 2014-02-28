@@ -9,7 +9,7 @@
       url: https://github.com/vim-jp/vital.vim
       hash:
   part:
-  aim: Vim scriptで効率的かつ汎用的なリスト、文字列、辞書の扱い方を学ぶ
+  aim: Vim scriptでリスト、文字列、辞書の効率的かつ汎用的な扱い方を学ぶ
   other: Data.List, Data.String, Data.Dictionaryあたりを読みます
 - id: 5
   date: 2014-04-12 21:00
