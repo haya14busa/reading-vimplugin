@@ -11,7 +11,7 @@
 ### プラグイン
 
 {% for plugin in archive.plugins %}
-- [{{ plugin.author }}/{{ plugin.name }}]({{ plugin.url }}/tree/{{ plugin.hash }})
+- [{{ plugin.author }}/{{ plugin.name }}]({{ plugin.url }}/tree/{{ plugin.hash }}){% if archive.part and forloop.length == 1 %} ({{ archive.part }}) {% endif %}
 {% endfor %}
 
 {% if archive.aim %}
@@ -36,4 +36,9 @@
 {% for link in archive.links %}
   - [{{ link.title }}]({{ link.url }})
 {% endfor %}
+{% endif %}
+
+{% if archive.other %}
+### その他
+{{ archive.other }}
 {% endif %}

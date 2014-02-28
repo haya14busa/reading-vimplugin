@@ -14,7 +14,7 @@ title: Vimプラグイン読書会
     <li>読むプラグイン:</li>
       <ul>
         {% for plugin in next.plugins %}
-        <li><a href="{{ plugin.url }}">{{ plugin.author }}/{{ plugin.name }}</a> {% if next.part %} ({{ next.part }}) {% endif %}</li>
+        <li><a href="{{ plugin.url }}">{{ plugin.author }}/{{ plugin.name }}</a> {% if next.part and forloop.length == 1 %} ({{ next.part }}) {% endif %}</li>
         {% endfor %}
       </ul>
     {% if next.aim %}
