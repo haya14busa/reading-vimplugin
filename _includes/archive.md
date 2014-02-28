@@ -31,7 +31,9 @@
 ### ログ
 <{{ archive.log }}>
 
+{% if archive.links %}
 ### 関連リンク
 {% for link in archive.links %}
   - [{{ link.title }}]({{ link.url }})
 {% endfor %}
+{% endif %}
