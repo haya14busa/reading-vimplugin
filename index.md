@@ -17,6 +17,9 @@ title: Vimプラグイン読書会
         <li><a href="{{ plugin.url }}">{{ plugin.author }}/{{ plugin.name }}</a> {% if next.part %} ({{ next.part }}) {% endif %}</li>
         {% endfor %}
       </ul>
+    {% if next.aim %}
+    <li>目的: {{ next.aim }}</li>
+    {% endif %}
   </ul>
   {% if next.other %}
     <p>{{ next.other }}</p>

@@ -1,6 +1,6 @@
+# vim: expandtab softtabstop=2 shiftwidth=2
 # archive.yml
 
-# 1: {{{
 - id: 1
   date: 2013-12-14 21:00
   plugins:
@@ -26,15 +26,13 @@
     - syui
     - thinca
     - zoncoen
+  aim: プラグインの構成を学ぶ
   log: http://lingr.com/room/vim/archives/2013/12/14#message-17822571
   links:
     - title: Vimプラグイン読書会を行いました - C++でゲームプログラミング
       url: http://d.hatena.ne.jp/osyo-manga/20131215/1387115301
     - title: Vimプラグイン読書会やりましたー « haya14busa
       url: http://haya14busa.com/reading-vim-plugin-01/
-# }}}
-
-# 2: {{{
 - id: 2
   date: 2014-01-11 21:00
   plugins:
@@ -50,12 +48,11 @@
     - lisia
     - manga_osyo
     - thinca
+  aim: マッピング、テスト、カーソル移動、ドットリピートの対応などを理解する
   log: http://lingr.com/room/vim/archives/2014/01/11#message-18045349
   links:
     - title: Vimプラグイン読書会第2回が1/11(土)21:00から開催されます! « haya14busa
       url: http://haya14busa.com/preparation_of_reading_vim_plugin_02/
-# }}}
-
 - id: 3
   date: 2014-02-08 21:00
   plugins:
@@ -75,5 +72,6 @@
     - mattn
     - supermomonga
     - thinca
+  aim: unite-sourceの作りかたを理解する
   log: http://lingr.com/room/vim/archives/2014/02/08#message-18300029
   links:

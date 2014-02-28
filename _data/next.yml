@@ -9,4 +9,5 @@
       url: https://github.com/vim-jp/vital.vim
       hash: #省略可
   part: # part1~partn とかの方式もよさそう
+  aim: Vim scriptで効率的かつ汎用的なリスト、文字列、辞書の扱い方を学ぶ
   other: Data.List, Data.String, Data.Dictionaryあたりを読みます
