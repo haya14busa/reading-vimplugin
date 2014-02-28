@@ -7,7 +7,17 @@
     - name: vital.vim
       author: vim-jp
       url: https://github.com/vim-jp/vital.vim
-      hash: #省略可
-  part: # part1~partn とかの方式もよさそう
+      hash:
+  part:
   aim: Vim scriptで効率的かつ汎用的なリスト、文字列、辞書の扱い方を学ぶ
   other: Data.List, Data.String, Data.Dictionaryあたりを読みます
+- id: 5
+  date: 2014-04-12 21:00
+  plugins:
+    - name:
+      author:
+      url:
+      hash: #省略可
+  part: # part1~partn とかの方式もよさそう
+  aim:
+  other:
