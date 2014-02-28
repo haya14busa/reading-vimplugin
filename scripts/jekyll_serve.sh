@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/bin/sh
 
 bundle exec jekyll serve -w -b /reading-vimplugin

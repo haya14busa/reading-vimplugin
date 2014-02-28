@@ -5,7 +5,7 @@ title: Vimプラグイン読書会
 
 
 <div class='next-plugin white-box'>
-  {% assign next = site.data.next %}
+  {% assign next = site.data.next[0] %}
   <h2>第{{ next.id }}回 次回予告</h2>
   <hr>
   <ul>
@@ -14,9 +14,12 @@ title: Vimプラグイン読書会
     <li>読むプラグイン:</li>
       <ul>
         {% for plugin in next.plugins %}
-        <li><a href="{{ plugin.url }}">{{ plugin.author }}/{{ plugin.name }}</a></li>
+        <li><a href="{{ plugin.url }}">{{ plugin.author }}/{{ plugin.name }}</a> {% if next.part and forloop.length == 1 %} ({{ next.part }}) {% endif %}</li>
         {% endfor %}
       </ul>
+    {% if next.aim %}
+    <li>目的: {{ next.aim }}</li>
+    {% endif %}
   </ul>
   {% if next.other %}
     <p>{{ next.other }}</p>
@@ -32,7 +35,7 @@ title: Vimプラグイン読書会
 共通の目的は、他の人の Vim プラグイン を読むことで「Vim script力の向上をはかる」ことです。しかし、回ごとに「プラグインの構成を理解する」、「プラグイン内の特定の部分の実装を理解する」といったもっと具体的な目的を決めて読んでいく予定です。
 
 ### 開催概要
-- 日時: 隔週土曜日21時(JST) or 不定期 TBD
+- 日時: 基本的に毎月第2土曜日21時(JST)。その都度変更可
 - 場所: オンラインのチャットルーム [LingrのVim部屋](http://lingr.com/room/vim)
 
 発言するには Lingr のアカウントを取得する必要があります。[ログ](./archive)を読みたいだけならその必要はありません(各過去の開催ページにログへのリンクがあります)。 終了時間は特に決まっていませんが、毎回だいたい2時間くらいです。土曜21時からの場合は23時開始のvimrc読書会までに終わります。ただし、後述の通り途中参加/途中離脱OKです。気軽に参加しましょう。
