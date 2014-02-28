@@ -5,7 +5,7 @@ title: Vimプラグイン読書会
 
 
 <div class='next-plugin white-box'>
-  {% assign next = site.data.next %}
+  {% assign next = site.data.next[0] %}
   <h2>第{{ next.id }}回 次回予告</h2>
   <hr>
   <ul>
@@ -14,7 +14,7 @@ title: Vimプラグイン読書会
     <li>読むプラグイン:</li>
       <ul>
         {% for plugin in next.plugins %}
-        <li><a href="{{ plugin.url }}">{{ plugin.author }}/{{ plugin.name }}</a></li>
+        <li><a href="{{ plugin.url }}">{{ plugin.author }}/{{ plugin.name }}</a> {% if next.part %} ({{ next.part }}) {% endif %}</li>
         {% endfor %}
       </ul>
   </ul>

@@ -1,10 +1,12 @@
+# vim: expandtab softtabstop=2 shiftwidth=2
 # _data/next.yml
 
-id: 4
-date: 2014-03-08 21:00
-plugins:
-  - name: vital.vim
-    author: vim-jp
-    url: https://github.com/vim-jp/vital.vim
-    # url: https://github.com/haya14busa/reading-vimplugin/wiki/Request
-other: Data.List, Data.String, Data.Dictionaryあたりを読みます
+- id: 4
+  date: 2014-03-08 21:00
+  plugins:
+    - name: vital.vim
+      author: vim-jp
+      url: https://github.com/vim-jp/vital.vim
+      hash: #省略可
+  part: # part1~partn とかの方式もよさそう
+  other: Data.List, Data.String, Data.Dictionaryあたりを読みます
