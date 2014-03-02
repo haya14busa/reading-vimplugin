@@ -4,6 +4,16 @@
 - id: 4
   date: 2014-03-15 21:00
   plugins:
+    - name: vim-pathogen
+      author: tpope
+      url: https://github.com/tpope/vim-pathogen
+      hash:
+  part:
+  aim: プラグインマネージャの仕組みを理解する
+  other:
+- id: 5
+  date: 2014-04-12 21:00
+  plugins:
     - name: vital.vim
       author: vim-jp
       url: https://github.com/vim-jp/vital.vim
@@ -11,8 +21,8 @@
   part:
   aim: Vim scriptでリスト、文字列、辞書の効率的かつ汎用的な扱い方を学ぶ
   other: Data.List, Data.String, Data.Dictionaryあたりを読みます
-- id: 5
-  date: 2014-04-12 21:00
+- id: 6
+  date: 2014-05-10 21:00
   plugins:
     - name:
       author:
