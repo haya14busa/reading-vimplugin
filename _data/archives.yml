@@ -81,3 +81,22 @@
   other:
   log: http://lingr.com/room/vim/archives/2014/02/08#message-18300029
   links:
+- id: 4
+  date: 2014-03-15 21:00
+  plugins:
+  - name: vim-pathogen
+    url: https://github.com/tpope/vim-pathogen
+    author: tpope
+    hash: 1270dceb1fe0ca35f8b292c7b41b45b42c5a0cc1
+  part: 
+  aim: プラグインマネージャの仕組みを理解する
+  other: 
+  members:
+  - crazymaster
+  - haya14busa
+  - kanno
+  - lisia
+  - manga_osyo
+  - thinca
+  log: http://lingr.com/room/vim/archives/2014/03/15#message-18587118
+  links: 
