@@ -99,4 +99,7 @@
   - manga_osyo
   - thinca
   log: http://lingr.com/room/vim/archives/2014/03/15#message-18587118
-  links: 
+  links:
+    - title: Question Why execute instead of call? \#116 tpope/vim-pathogen
+      url: https://github.com/tpope/vim-pathogen/issues/116
+
