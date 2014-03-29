@@ -14,3 +14,7 @@ bundle exec jekyll serve -w -b /reading-vimplugin
 http://localhost:4000/reading-vimplugin/
 
 でチェック
+
+```
+#Vimプラグイン読書会 まであと10分！今回は {author} さんの {plugin} です！会場→ http://lingr.com/room/vim
+```
