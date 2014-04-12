@@ -103,3 +103,25 @@
     - title: Question Why execute instead of call? \#116 tpope/vim-pathogen
       url: https://github.com/tpope/vim-pathogen/issues/116
 
+- id: 5
+  date: 2014-04-12 21:00
+  plugins:
+  - name: vital.vim
+    url: https://github.com/vim-jp/vital.vim
+    author: vim-jp
+    hash: d3dafa126a39f91288a3df6f83a74a75137d5e94
+  part: Data.List編
+  aim: Vim scriptでリストの効率的かつ汎用的な扱い方を学ぶ
+  other: Data.Listを読みました
+  members:
+  - boku
+  - haya14busa
+  - hokorobi
+  - keizo
+  - manga_osyo
+  - raa0121
+  - rinx
+  - s_of_p
+  - supermomonga
+  log: http://lingr.com/room/vim/archives/2014/04/12#message-18777799
+  links: 
