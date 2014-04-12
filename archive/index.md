@@ -27,7 +27,8 @@ title: 過去の開催 - Vimプラグイン読書会
     <td>{{ archive.date | date: "%Y/%m/%d %a %H:%M" }}</td>
     <td>
     {% for plugin in archive.plugins %}
-    <a href="{{ plugin.url }}/tree/{{ plugin.hash }}">{{ plugin.author }}/{{ plugin.name }}</a><br>
+    <a href="{{ plugin.url }}/tree/{{ plugin.hash }}">{{ plugin.author }}/{{ plugin.name }}{% if archive.part and forloop.length == 1 %} ({{ archive.part }}) {% endif %}
+</a><br>
     {% endfor %}
     </td>
     <td><a href="{{ archive.log }}">ログ</a></td>
