@@ -2,7 +2,7 @@
 # _data/next.yml
 
 - id: 6
-  date: 2014-05-10 21:00
+  date: 2014-05-24 21:00
   plugins:
     - name: vim-textobj-indent
       author: kana
