@@ -1,27 +1,13 @@
 # vim: expandtab softtabstop=2 shiftwidth=2
 # _data/next.yml
 
-- id: 6
-  date: 2014-05-24 21:00
+- id: 7
+  date: 2014-06-21 21:00
   plugins:
-    - name: vim-textobj-indent
-      author: kana
-      url: https://github.com/kana/vim-textobj-indent
-      hash:
-    - name: vim-operator-replace
-      author: kana
-      url: https://github.com/kana/vim-operator-replace
+    - name: vim-expand-regin
+      author: terryma
+      url: https://github.com/terryma/vim-expand-region
       hash:
   part:
-  aim: vim-textobj-userとvim-operator-userを使った自作テキストオブジェクトとオペレーターを作成できるようになる
-  other:
-- id: 7
-  date: 2014-06-14 21:00
-  plugins:
-    - name:
-      author:
-      url:
-      hash: #省略可
-  part: # part1~partn とかの方式もよさそう
   aim:
   other:
