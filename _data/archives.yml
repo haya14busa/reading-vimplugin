@@ -153,3 +153,22 @@
   - thinca
   log: http://lingr.com/room/vim/archives/2014/05/24#message-19118104
   links: 
+- id: 7
+  date: 2014-06-21 21:00
+  plugins:
+  - name: vim-expand-regin
+    url: https://github.com/terryma/vim-expand-region
+    author: terryma
+    hash: 966513543de0ddc2d673b5528a056269e7917276
+  part: 
+  aim: 
+  other: 
+  members:
+  - Reo Inoue
+  - deris0126
+  - haya14busa
+  - hujo
+  - manga_osyo
+  - thinca
+  log: http://lingr.com/room/vim/archives#message-19378120
+  links: 
