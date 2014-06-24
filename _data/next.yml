@@ -8,6 +8,10 @@
       author: thinca
       url: https://github.com/thinca/vim-qfreplace
       hash:
+    - name: indentLine
+      author: Yggdroot
+      url: https://github.com/Yggdroot/indentLine
+      hash:
   part:
   aim:
-  other:
+  other: buffer, concealの扱い方などを学ぶ
