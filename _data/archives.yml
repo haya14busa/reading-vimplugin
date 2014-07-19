@@ -172,3 +172,27 @@
   - thinca
   log: http://lingr.com/room/vim/archives#message-19378120
   links: 
+- id: 8
+  date: 2014-07-19 21:00
+  plugins:
+  - name: vim-qfreplace
+    url: https://github.com/thinca/vim-qfreplace
+    author: thinca
+    hash: 89e64ae24fb4b8e2402ba6d84971c06606f4adf4
+  - name: indentLine
+    url: https://github.com/Yggdroot/indentLine
+    author: Yggdroot
+    hash: 6546a61289cc1b044c594875c63a7934802f8ccc
+  part: 
+  aim: 
+  other: buffer, concealの扱い方などを学ぶ
+  members:
+  - cohama
+  - deris0126
+  - haya14busa
+  - hokorobi
+  - manga_osyo
+  - supermomonga
+  - syngan
+  log: http://lingr.com/room/vim/archives/2014/07/19#message-19684379
+  links: 
