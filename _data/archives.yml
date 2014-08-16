@@ -196,3 +196,30 @@
   - syngan
   log: http://lingr.com/room/vim/archives/2014/07/19#message-19684379
   links: 
+- id: 9
+  date: 2014-08-16 21:00
+  plugins:
+  - name: neosnippet-snippets
+    url: https://github.com/Shougo/neosnippet-snippets
+    author: Shougo
+    hash: 6f35f08423a8d204c88c0472aa90c929e867edfc
+  part: 
+  aim: 
+  other: snippetの書き方を学ぶ
+  members:
+  - cohama
+  - deris0126
+  - haya14busa
+  - hujo
+  - kamichidu
+  - kazuakiM
+  - lisia
+  - manga_osyo
+  - mattn
+  - pocke
+  - raa0121
+  - rinx
+  - supermomonga
+  - thinca
+  log: http://lingr.com/room/vim/archives/2014/08/16#message-19951082
+  links: 

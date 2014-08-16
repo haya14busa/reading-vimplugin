@@ -1,13 +1,17 @@
 # vim: expandtab softtabstop=2 shiftwidth=2
 # _data/next.yml
 
-- id: 9
-  date: 2014-08-16 21:00
+- id: 10
+  date: 2014-09-20 21:00
   plugins:
-    - name: neosnippet-snippets
-      author: Shougo
-      url: https://github.com/Shougo/neosnippet-snippets
+    - name: vim-repeat
+      author: tpope
+      url: https://github.com/tpope/vim-repeat
+      hash:
+    - name: vim-repeat
+      author: kana
+      url: https://github.com/kana/vim-repeat
       hash:
   part:
   aim:
-  other: snippetの書き方を学ぶ
+  other: ドットリピート(`.`)をカスタマイズして定義する方法を学ぶ
