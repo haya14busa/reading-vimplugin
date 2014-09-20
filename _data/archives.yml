@@ -223,3 +223,32 @@
   - thinca
   log: http://lingr.com/room/vim/archives/2014/08/16#message-19951082
   links: 
+- id: 10
+  date: 2014-09-20 21:00
+  plugins:
+  - name: vim-repeat
+    url: https://github.com/tpope/vim-repeat
+    author: tpope
+    hash: 2a3c5f8e3c26a57b8eb4cfc4be79615a1c508ef6
+  - name: vim-repeat
+    url: https://github.com/kana/vim-repeat
+    author: kana
+    hash: 6dd787884b4df5c9193073325775b22c3a800225
+  part: 
+  aim: 
+  other: ドットリピート(`.`)をカスタマイズして定義する方法を学ぶ
+  members:
+  - BOXP
+  - cohama
+  - deris0126
+  - haya14busa
+  - hujo
+  - koara_local
+  - raa0121
+  - rbtnn
+  - syui
+  - thinca
+  - ujihisa
+  - 国選幼女人
+  log: http://lingr.com/room/vim/archives/2014/09/20#message-20233626
+  links: 

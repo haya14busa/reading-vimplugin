@@ -1,17 +1,13 @@
 # vim: expandtab softtabstop=2 shiftwidth=2
 # _data/next.yml
 
-- id: 10
-  date: 2014-09-20 21:00
+- id: 11
+  date: 2014-10-18 21:00
   plugins:
-    - name: vim-repeat
-      author: tpope
-      url: https://github.com/tpope/vim-repeat
-      hash:
-    - name: vim-repeat
-      author: kana
-      url: https://github.com/kana/vim-repeat
+    - name: vim-plug
+      author: junegunn
+      url: https://github.com/junegunn/vim-plug
       hash:
   part:
-  aim:
-  other: ドットリピート(`.`)をカスタマイズして定義する方法を学ぶ
+  aim: junegunn製プラグインを読む
+  other:
