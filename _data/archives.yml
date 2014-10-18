@@ -252,3 +252,23 @@
   - 国選幼女人
   log: http://lingr.com/room/vim/archives/2014/09/20#message-20233626
   links: 
+- id: 11
+  date: 2014-10-18 21:00
+  plugins:
+  - name: vim-plug
+    url: https://github.com/junegunn/vim-plug
+    author: junegunn
+    hash: 4b3fbd1592e72843021e0ae79adbfc5c902ddfa7
+  part: 
+  aim: junegunn製プラグインを読む
+  other: 
+  members:
+  - aiya000
+  - haya14busa
+  - itchyny
+  - manga_osyo
+  - raa0121
+  - thinca
+  - ujihisa
+  log: http://lingr.com/room/vim/archives/2014/10/18#message-20422793
+  links: 
