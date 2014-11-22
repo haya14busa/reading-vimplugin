@@ -272,3 +272,27 @@
   - ujihisa
   log: http://lingr.com/room/vim/archives/2014/10/18#message-20422793
   links: 
+- id: 12
+  date: 2014-11-22 21:00
+  plugins:
+  - name: vim-scouter
+    url: https://github.com/thinca/vim-scouter
+    author: thinca
+    hash: 5221901d4ad6b2ef8b370b336db2aa7f69f2b6dc
+  - name: vim-localrc
+    url: https://github.com/thinca/vim-localrc
+    author: thinca
+    hash: e2cc8a661bb3f3215fddf58549913c5115f585bd
+  part: 
+  aim: 
+  other: 
+  members:
+  - cohama
+  - deris0126
+  - haya14busa
+  - kazuakiM
+  - lisia
+  - thinca
+  - 明智小衣2
+  log: http://lingr.com/room/vim/archives/2014/11/22#message-20671895
+  links: 
